@@ -1,0 +1,12 @@
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import logger from "redux-logger";
+import thunk from "redux-thunk";
+import { Reducer } from "./Reducer";
+
+
+const rootreducer = combineReducers({product:Reducer})
+const Store = configureStore({
+    reducer:rootreducer,
+    middleware:[thunk,logger]
+})
+export default Store;

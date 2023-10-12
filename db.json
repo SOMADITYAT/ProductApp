@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung",
+      "description": "smart phone",
+      "price": "4774",
+      "category": "based"
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "description": "smart phone",
+      "price": "4774",
+      "category": "based"
+    }
+  ]
+}
